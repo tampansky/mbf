@@ -5,7 +5,25 @@ import time
 import os
 import random
 sleep = time.sleep
-
+#colors
+blue='\e[1;34m'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+grey="\033[0;37m"
+purple="\033[0;35m"
+yellow="\033[1;33m"
+Purple="\033[0;35m"
+Cafe="\033[0;33m"
+Fiuscha="\033[0;35m"
+mon="mon"
+lightcyan='\e[96m'
+white='\e[1;37m'
+nc="\e[0m"
+red='\e[1;31m'
+yellow='\e[1;33m'
+clear 
 user_agent_list = [
    #Chrome
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
@@ -82,6 +100,13 @@ proxies_list = [
 ]
 URL = 'https://m.facebook.com/login'
 sleep(2)
+print ('''\033[92m 
+_______________ _____________          
+___  ____/__  /___  ___/__  /______  __
+__  /_   __  __ \____ \__  //_/_  / / /
+_  __/   _  /_/ /___/ /_  ,<  _  /_/ / 
+/_/      /_.___//____/ /_/|_| _\__, /  
+                              /____/ ''')
 print ('Example : tampanskyyt@gmail.com')
 email = input('Masukkan Email Anda : ')
 sleep(1)
